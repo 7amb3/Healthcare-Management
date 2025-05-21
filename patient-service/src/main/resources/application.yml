@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: patient-service
+  kafka:
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.ByteArraySerializer
+#  h2:
+#    console:  /h2-console
+#  datasource:
+#    url:  jdbc:h2:mem:testdb
+#    driver: org.h2.Driver
+#    username: admin_viewer
+#    password: password
+#  jpa:
+#    database-platform:  org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: update
+#  sql:
+#    init:
+#      mode: always
